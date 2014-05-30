@@ -20,7 +20,7 @@
                     <ResGlobalInfo>
                         <HotelReservationIDs>
                             <HotelReservationID ResID_Source="TAM-1" ResID_SourceContext="TAM Viagens" ResID_Type="14" ResID_Value="88888"/>
-                            <HotelReservationID ResID_Source="Switchfly" ResID_SourceContext="Switchfly" ResID_Type="14" ResID_Value="99999"/>
+                            <HotelReservationID ResID_Source="Switchfly" ResID_SourceContext="Switchfly" ResID_Type="14" ResID_Value="88888"/>
                             <HotelReservationID ResID_Date="2014--04-14T12:44:01" ResID_Source="WDW" ResID_Type="14" ResID_Value="412001608470"/>
                         </HotelReservationIDs>
                     </ResGlobalInfo>

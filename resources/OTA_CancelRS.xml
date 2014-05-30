@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
     <soap-env:Header>
-        <Interface Name="Switchfly" Version="2.0" xmlns="http://www.switchfly.com/travelexplorer/R14/header">
+        <Interface Name="Switchfly" Version="2.0" xmlns="http://www.switchfly.com/switchfly/R14/header">
             <PayloadInfo Location="Body" RequestId="99999-OBJECT_KEY" RequestorId="Switchfly.com" ResponderId="Disney">
                 <CommDescriptor DestinationId="Disney" RetryIndicator="false" SourceId="TAM-1">
                     <Authentication Username="Switchfly" Password="Password"/>

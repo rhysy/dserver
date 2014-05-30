@@ -26,8 +26,8 @@
             _acknowledge(res);
 
             setTimeout(function() {
-                console.log('Rise!!');
                 fs.readFile(responseResource, function(err, data) {
+                    console.log("Reading resource " + responseResource);
                     var responseDoc = _parseXmlString(data);
                     _setRequestId(responseDoc, requestId); // echo requestId from request in response.
                     _sendResponse(responseDoc);
