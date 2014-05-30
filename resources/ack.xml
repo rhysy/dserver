@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap-env:Header>
+        <Interface xmlns="http://www.switchfly.com/travelexplorer/R14/header" Name="Switchfly" Version="2.0">
+            <Acknowledgement RequestId="Tam65a-a6177a38d7a5A"/>
+        </Interface>
+    </soap-env:Header>
+    <soap-env:Body/>
+</soap-env:Envelope>

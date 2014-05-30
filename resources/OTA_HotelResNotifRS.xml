@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap-env:Header>
+        <Interface Name="Switchfly" Version="2.0" xmlns="http://www.switchfly.com/switchfly/R14/header">
+            <PayloadInfo Location="Body" RequestId="[08ec9a42-4250-4f68-9634-4653d21e3f60]" RequestorId="Disney" ResponderId="Switchfly.com">
+                <CommDescriptor DestinationId="Switchfly-DC" RetryIndicator="false" SourceId="Disney">
+                    <Authentication Password="Password" Username="Switchfly"/>
+                </CommDescriptor>
+                <PayloadDescriptor Name="OTA_HotelResNotifRS" Version="2005B"/>
+            </PayloadInfo>
+        </Interface>
+    </soap-env:Header>
+    <soap-env:Body>
+        <OTA_HotelResNotifRS EchoToken="[08ec9a42-4250-4f68-9634-4653d21e3f60]" Target="Production"
+                             TransactionIdentifier="[08ec9a42-4250-4f68-9634-4653d21e3f60]" Version="1.001"
+                             xmlns="http://www.opentravel.org/OTA/2003/05">
+            <Success/>
+            <HotelReservations>
+                <HotelReservation CreateDateTime="2014--04-14T12:44:01" CreatorID="WDW">
+                    <ResGlobalInfo>
+                        <HotelReservationIDs>
+                            <HotelReservationID ResID_Source="TAM-1" ResID_SourceContext="TAM Viagens" ResID_Type="14" ResID_Value="88888"/>
+                            <HotelReservationID ResID_Source="Switchfly" ResID_SourceContext="Switchfly" ResID_Type="14" ResID_Value="99999"/>
+                            <HotelReservationID ResID_Date="2014--04-14T12:44:01" ResID_Source="WDW" ResID_Type="14" ResID_Value="412001608470"/>
+                        </HotelReservationIDs>
+                    </ResGlobalInfo>
+                </HotelReservation>
+            </HotelReservations>
+        </OTA_HotelResNotifRS>
+    </soap-env:Body>
+</soap-env:Envelope>
